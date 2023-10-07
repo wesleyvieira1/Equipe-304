@@ -82,3 +82,19 @@ main{
 .boxes{
     display: flex;
 }
+.mapa-mundi{
+    background-color: #72848E;
+    height: vh;
+}
+
+.mp-title h1{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-weight: 400;
+}
+
+.mp-mapa{
+    text-align: center;
+    padding: 10px;
+}
