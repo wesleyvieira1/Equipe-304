@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jardins Oceâncios</title>
+    <title>Oceanic Gardens</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="icon" href="assets/icon.jfif" sizes="16x16"> <!-- Imagem do icons -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -12,46 +12,15 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-primary">
-            <div class="container-fluid">
-              <a style="font-size: 19px;" class="navbar-brand p-1" href="#">Jardins Oceâncios</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong navbar-fixed-top">
+            <div class="container-fluid d-flex justify-content-center" >
+              <img src="assets/nav-icon.png" style="width: 80px; height: 80px;" alt="">
             </div>
           </nav>  
     </header>
     <main class="main">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="height: 50%;">
-            <div class="carousel-inner d-block w-100 h-50">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner d-block w-70 h-40">
                 <div class="carousel-item active">
                 <img src="https://s1.static.brasilescola.uol.com.br/be/2020/06/oceano.jpg" class="d-block w-100 h-90" alt="...">
                 </div>
@@ -76,27 +45,30 @@
             <div class="cardboxes">
                 <div class="card_one">
                     <img src="https://s1.static.brasilescola.uol.com.br/be/2020/06/oceano.jpg" alt="">
-                    <p class="card-pergunta">Qual a origem do oxigênio?</p>
-                    <a class="card-button" href="pages/card1.html">Mais informações</a>
+                    <p class="card-pergunta">What is the origin of oxygen?</p>
+                    <div class="foo-card">
+                        <a class="card-button" href="card1.html">See More</a>
+                    </div>
                 </div>
                 <div class="card_two">
                     <img src="https://s1.static.brasilescola.uol.com.br/be/2020/06/oceano.jpg" alt="">
-                    <p class="card-pergunta">Por que está tão quente? </p>
-                    <a class="card-button" href="">Mais informações</a>
+                    <p class="card-pergunta">Why is it so hot? </p>
+                    <div class="foo-card">
+                        <a class="card-button" href="card2.html">See More</a>
+                    </div>
                 </div>
                 <div class="card_three">
                     <img src="https://s1.static.brasilescola.uol.com.br/be/2020/06/oceano.jpg" alt="">
-                    <p class="card-pergunta"> De onde vem o que comemos?</p>
-                    <a class="card-button" href="">Mais informações</a>
+                    <p class="card-pergunta">Where does what we eat come from?</p>
+                    <div class="foo-card">
+                        <a class="card-button" href="card3.html">See More</a>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="mapa-mundi" style="background-image: url(https://sustainablejapan.jp/wp-content/uploads/2021/02/ocean.jpg);">
+        <section class="mapa-mundi">
             <div class="mp-title">
-                <h1>Mergulhe Conosco</h1>
-            </div>
-            <div class="mp-mapa">
-                <a href="">Vamos mergulhar?</a>
+                <a href="ocean.html">Let's go to the ocean?</a>
             </div>
         </section>
     </main>
@@ -107,7 +79,7 @@
             </div>
         
             <div class="fo-team-logo">
-                <img src="assets/logo-jardim-oc.png"  width="200" alt="">
+                <img src="assets/team 304.png"  width="200" alt="">
             </div>
         
             <div class="fo-team-names">

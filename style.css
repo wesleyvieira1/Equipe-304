@@ -7,15 +7,15 @@
 }
 
 main{
-    background-color: #1A2226;
+    background:#dfecf8 ;
 }
 
 .cardboxes{
     display: flex;
     justify-content: center;
     flex-direction: flex;
-    gap: 15px;
-    padding: 30px;
+    gap: 50px;
+    padding: 90px;
 }
 
 .card_one img, .card_two img, .card_three img{
@@ -23,24 +23,28 @@ main{
     width: 100%;
 }
 .card_one, .card_two, .card_three { 
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
     border-radius: 15px;
-    width: 30%;
+    width: 20%;
     text-align: center;
-    padding: 20px;
 } 
 .card-pergunta{
-    color: white;
+    color: black;
     padding: 30px;
     font-size: 19px;
+}
+
+.card_one , .card_two , .card_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-button{
     width: 100%;
     padding: 10px;
-    margin-top: 70px;
     text-decoration: none;
     color: white;
     background-color: blue;
@@ -83,18 +87,95 @@ main{
     display: flex;
 }
 .mapa-mundi{
-    background-color: #72848E;
-    height: vh;
+    background-image: url(assets/maropaco.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
-.mp-title h1{
+.mp-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mp-title a{
     text-align: center;
     color: white;
     padding: 30px;
     font-weight: 400;
+    font-size: 40px;
+    background-color: blue;
+    border-radius: 15px;
+    width: 50%;
+    text-decoration: none;
 }
 
 .mp-mapa{
     text-align: center;
     padding: 10px;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 700px;
+    height: 400px; 
+}
+
+nav{
+    background-color:  #1a262d55;
+    width: 100%;
+    padding: -10px;
+}
+
+.nav-link{
+    color: white;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.container img{
+    border-radius: 50%;
+}
+
+
+@media (max-width: 760px){
+    .cardboxes{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card_one, .card_two, .card_three { 
+        width: 100%;
+    } 
+
+    .mp-title a{
+        font-size: 20px;
+        text-align: center;
+        width: 80%;
+        padding: 20px;
+
+    }
+    .footer-boxes{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .fo-team-names p{
+        text-align: center;
+    }
+
+    .fo-informacoes{
+        text-align: center;
+    }
 }
