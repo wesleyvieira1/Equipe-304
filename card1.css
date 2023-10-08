@@ -72,4 +72,13 @@ main{
     padding-left: 30px;
     padding-top: 10px;
     font-size: 30px;
+
+}
+.container{
+    height: 60%; 
+    text-align: center;
+    flex-direction: column; 
+    display: flex;
+    background-color: white;
+    width: 100%; 
 }

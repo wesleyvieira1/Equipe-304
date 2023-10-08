@@ -81,12 +81,12 @@
                 </div>
             </div>
         </section>
-        <section>
-            oi
-        </section>
         <section class="mapa-mundi">
+            <audio id="meuAudio">
+                <source src="assets/SnapInsta.io - Efeito Sonoro de BOLHAS (128 kbps).mp3" type="audio/mpeg">
+            </audio>
             <div class="mp-title">
-                <a href="ocean.html">Let's go to the ocean?</a>
+                <a id="botaoSom" href="ocean.html">Let's go to the ocean?</a>
             </div>
         </section>
     </main>
@@ -118,6 +118,17 @@
         </div>
     </footer>
 </body>
+<script>
+    
+    var meuAudio = document.getElementById("meuAudio");
+
+    var botaoSom = document.getElementById("botaoSom");
+  
+    botaoSom.addEventListener("click", function() {
+      meuAudio.play();
+    });
+</script>
+  
 </html>
 
 <!--
