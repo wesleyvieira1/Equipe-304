@@ -11,7 +11,6 @@
     width: 100%;
     text-align: center;
     padding: 20px;
-    border-radius: 10px 10px 0 0 ;
 }
 
 .imgs-boxes img{
@@ -25,14 +24,18 @@
     background-color:white;
 }
 
+.description p{
+    font-size: 15px;
+}
+
 .imgs-boxes{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 15px;
     background-color: white;
-    border-radius: 0 0 10px 10px;
     padding: 32px;
+    width: 100%;
 }
 
 main{
@@ -42,7 +45,6 @@ main{
     align-items: center;
     padding: 20px;
     background-color:  rgb(162, 162, 238);
-    height: 100vh;
 }
 
 .box{
@@ -65,4 +67,24 @@ main{
     padding-left: 30px;
     padding-top: 10px;
     font-size: 30px;
+}
+
+.informacao {
+    text-align: center;
+    padding: 30px;
+    background-color:white;
+}
+
+.informacao p {
+    font-size: 15px;
+    background-color: white;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 15px;
+    background-color: white;
+    align-items: center;
 }

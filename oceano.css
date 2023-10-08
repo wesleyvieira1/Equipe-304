@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;900&display=swap');
+
+*{
+    font-family: "Poppins";
+}
 body {
     display: flex;
     justify-content: center;
@@ -5,16 +10,35 @@ body {
     height: 100vh;
     margin: 0;
 }
+.botao{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px 10px 0 0 ;
+    background-color: white;
+    width: 100%;
+}
+
+.botao a{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: black;
+    z-index: 99999;
+}
 
 .map-container {
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .map {
     position: relative;
-    width: 800px; /* Largura da imagem do mapa */
-    height: 400px; /* Altura da imagem do mapa */
+    width: 800px; 
+    height: 400px; 
     overflow: hidden;
 }
 
@@ -23,16 +47,69 @@ body {
     height: 100%;
 }
 
-.pin {
+.pin:nth-child(1){
     position: absolute;
-    width: 10px; /* Largura do pino */
-    height: 10px; /* Altura do pino */
-    background-color: red; /* Cor do pino */
-    border-radius: 50%; /* Forma de círculo para o pino */
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
     cursor: pointer;
     transition: transform 0.2s;
+    margin-top: 6rem;
+    margin-left: 28rem;
+    margin-right: 0rem;
+    margin-bottom: 10rem;
+}
+
+.pin:nth-child(2){
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 3rem;
+    margin-left: 25rem;
+    margin-right: 0rem;
+    margin-bottom: 70rem;
+}
+
+.pin:nth-child(3){
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 19rem;
+    margin-left: 15rem;
+    margin-right: 0rem;
+    margin-bottom: 70rem;
+}
+.pin:nth-child(4){
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 4rem;
+    margin-left: 45rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
 }
 
 .pin:hover {
-    transform: scale(1.2); /* Efeito de aumento de tamanho no hover */
+    transform: scale(1.2); 
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }

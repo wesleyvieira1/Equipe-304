@@ -9,27 +9,41 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+   
 </head>
 <body>
+
+    <audio src="/assets/musica ambiente.mp3" autoplay ></audio>
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong navbar-fixed-top">
             <div class="container-fluid d-flex justify-content-center" >
-              <img src="assets/nav-icon.png" style="width: 80px; height: 80px;" alt="">
+              <img src="assets/logo.png" style="width: 80px; height: 80px;" alt="">
             </div>
           </nav>  
     </header>
     <main class="main">
+    
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner d-block w-70 h-40">
                 <div class="carousel-item active">
-                <img src="https://s1.static.brasilescola.uol.com.br/be/2020/06/oceano.jpg" class="d-block w-100 h-90" alt="...">
+                <img src="https://oceancolor.gsfc.nasa.gov/gallery/feature/images/LC08_L1TP_072088-089_20200930_20201001_01_RT.NewZealand.crop.small.jpg" class="d-block w-100 h-80" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="font-weight: bold;">Welcome to SEAAWARE</h1>
                 </div>
+
+            </div>
                 <div class="carousel-item">
-                <img src="https://nautica.com.br/wp-content/uploads/2023/06/dia-oceano-1.bx_.jpg" class="d-block w-100 h-90" alt="...">
-                </div>
+                <img src="https://oceancolor.gsfc.nasa.gov/gallery/feature/images/A2018327090500.ArabianSea.small.jpg" class="d-block w-100 h-80" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="font-weight: bold;">Discover everything about the oceans</h1>
+                  </div>
+            </div>
                 <div class="carousel-item">
-                <img src="https://img.olhardigital.com.br/wp-content/uploads/2023/07/fundo-do-oceano.jpg" class="d-block w-100 h-90" alt="...">
-                </div>
+                <img src="https://oceancolor.gsfc.nasa.gov/gallery/feature/images/V2019250.AfterDorian.crop.small.jpg" class="d-block w-100 h-90" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="font-weight: bold;">Ocean life and everything you need to know</h1>
+                  </div>
+            </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -41,30 +55,34 @@
             </button>
         </div>
         
+        
         <section>
             <div class="cardboxes">
                 <div class="card_one">
-                    <img src="https://s1.static.brasilescola.uol.com.br/be/2020/06/oceano.jpg" alt="">
-                    <p class="card-pergunta">What is the origin of oxygen?</p>
+                    <img src="/assets/fundo_do_mar.png" alt="" height="50%">
+                    <p>What is the origin of oxygen?</p>
                     <div class="foo-card">
                         <a class="card-button" href="card1.html">See More</a>
                     </div>
                 </div>
                 <div class="card_two">
-                    <img src="https://s1.static.brasilescola.uol.com.br/be/2020/06/oceano.jpg" alt="">
-                    <p class="card-pergunta">Why is it so hot? </p>
+                    <img src="/assets/imagem_coral.jpg" alt="" >
+                    <p>How do the oceans affect the weather in your city?</p>
                     <div class="foo-card">
                         <a class="card-button" href="card2.html">See More</a>
                     </div>
                 </div>
                 <div class="card_three">
-                    <img src="https://s1.static.brasilescola.uol.com.br/be/2020/06/oceano.jpg" alt="">
-                    <p class="card-pergunta">Where does what we eat come from?</p>
+                    <img src="/assets/peixes.jpg" alt="">
+                    <p>Where does what we eat come from?</p>
                     <div class="foo-card">
                         <a class="card-button" href="card3.html">See More</a>
                     </div>
                 </div>
             </div>
+        </section>
+        <section>
+            oi
         </section>
         <section class="mapa-mundi">
             <div class="mp-title">
@@ -83,6 +101,7 @@
             </div>
         
             <div class="fo-team-names">
+                <p style="font-weight: bolder; color: red;">Desenvolvedores: </p>
                 <p>Carlos Santos</p>
                 <p>Clarice Lopes</p>
                 <p>Gabriele Targino</p>
