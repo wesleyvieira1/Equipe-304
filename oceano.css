@@ -101,6 +101,65 @@ body {
     margin-right: 0rem;
     margin-bottom: 0rem;
 }
+.pin:nth-child(5){
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 20rem;
+    margin-left: 47rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+}
+
+.pin:nth-child(6){
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 16rem;
+    margin-left: 16.5rem;
+    margin-right: 0rem;
+    margin-bottom: 70rem;
+}
+
+
+.pin:nth-child(7){
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 11rem;
+    margin-left: 8rem;
+    margin-right: 0rem;
+    margin-bottom: 70rem;
+}
+
+
+
+.pin:nth-child(8){
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 10.5rem;
+    margin-left: 28.5rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+}
+
 
 .pin:hover {
     transform: scale(1.2); 
